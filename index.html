@@ -10,8 +10,8 @@
 <body>
   <div id="main"></div>
   <script type="module">
-    import init from "/solana-monopoly-game-frontend-deploy/assets/dioxus/monopoly_frontend.js";
-    init("/solana-monopoly-game-frontend-deploy/assets/dioxus/monopoly_frontend_bg.wasm").then(wasm => {
+    import init from "/solana-monopoly-game-deploy/assets/dioxus/monopoly_frontend.js";
+    init("/solana-monopoly-game-deploy/assets/dioxus/monopoly_frontend_bg.wasm").then(wasm => {
       if (wasm.__wbindgen_start == undefined) {
         wasm.main();
       }
